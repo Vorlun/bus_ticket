@@ -1,0 +1,18 @@
+{
+  "port": 3434,
+  "db_host": "localhost",
+  "db_username": "postgres",
+  "db_port": 5432,
+  "db_password": "1402",
+  "db_name": "one-rent",
+
+  "jwt": {
+    "user": {
+      "accessSecret": "user-access-secret",
+      "refreshSecret": "user-refresh-secret",
+      "accessExpiresIn": "15m",
+      "refreshExpiresIn": "7d"
+    },
+    "cookieMaxAge": 604800000
+  }
+}
